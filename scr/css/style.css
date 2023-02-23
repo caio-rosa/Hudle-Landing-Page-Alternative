@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-width: 300px;
+    font-family: "Open Sans";
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(2, 39, 41, 0.048);
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.header {
+    margin: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > img {
+    width: 180px;
+}
+
+
+
+
+
+
+.box1 {
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.getStarted {
+    width: 40%;
+    height: 45px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition-duration: 0.4s;
+}
+
+.getStarted:hover {
+    background-color: hsl(321, 100%, 78%); 
+}
+
+.TryIt {
+    width: 15%;
+    height: 30px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: hsl(322, 100%, 66%);
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    font-weight: 600;
+    font-size: 12px;
+    transition-duration: 0.4s;
+}
+
+.TryIt:hover {
+    border-color: hsla(321, 100%, 78%, 0.753);
+    color: hsla(321, 100%, 78%, 0.76);;
+}
+
+.box1 > h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box1 > p {
+    width: 70%;
+    font-size: 14px;
+    text-align: center ;
+}
+
+.box1 > img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.box2 > div > img {
+    width: 20%;
+}
+
+.box2 > div > h1 {
+    font-size: 36px;
+}
+
+.box2 > div > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 0.712);
+}
+
+
+
+
+
+
+.box3 {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.box3 > div > img {
+    width: 100%;
+}
+
+
+
+
+
+
+.box4 {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 14px;
+}
+
+.box4 > div > img {
+    width: 100%;
+}
+
+
+
+
+
+
+.box5 {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.box5 > div > img {
+    width: 100%;
+}
+
+
+
+
+.box6 {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: hsl(192, 100%, 9%);
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.footer > div {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 20px;
+    width: 50%;
+    font-size: 12px;
+    color: white;
+}
+
+.infos {
+    gap: 10px;
+}
+
+.infos > img {
+    width: 12px;
+}
+
+.footer > div > img {
+    margin-bottom: 20px;
+}
+
+.footer > .leftbox > p {
+    margin-bottom: 10px;
+}
+
+.infos {
+    padding-bottom: 50px;
+} 
+
+.social {
+    margin-top: 5px;
+    width: 25px;
+}
+
+.socialmedia {
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightbox > div > h1 {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.rightbox > div > p {
+    padding-bottom: 25px;
+}
+
+.rightbox > div > div > button {
+    margin-left: 5px;
+    height: 25px;
+    padding: 5px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    transition-duration: 0.4s;
+}
+
+.rightbox > div > div > button:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+.rightbox > div > div > input {
+    height: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.logo2 {
+    width: 100%;
+}
+@media only screen and (min-width: 526px) and (max-width: 775px)
+{
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 525px)
+{
+    .footer {
+        gap: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
